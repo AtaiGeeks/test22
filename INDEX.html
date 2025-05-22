@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Задачи JS — Отдельные файлы без CSS</title>
+</head>
+<body>
+
+  <section>
+    <h2>1. Извлечь числа из строки</h2>
+    <input id="inputStr" type="text" placeholder="Введите строку с числами" />
+    <button id="extractBtn">Извлечь числа</button>
+    <p>Результат: <span id="extractResult"></span></p>
+  </section>
+
+  <section>
+    <h2>2. Рекурсивные числа Фибоначчи с задержкой 1 секунда (до 144)</h2>
+    <button id="startFib">Старт Фибоначчи</button>
+    <p id="fibStatus"></p>
+  </section>
+
+  <section>
+    <h2>3 и 7. Запросы на API</h2>
+    <button id="fetchProductsBtn">Получить названия товаров (fakestoreapi)</button>
+    <button id="fetchCustomJSONBtn">Получить мои данные (пример)</button>
+  </section>
+
+  <section>
+    <h2>4. Кнопки цветов с делегированием событий</h2>
+    <div class="color-buttons">
+      <button>red</button>
+      <button>green</button>
+      <button>blue</button>
+      <button>yellow</button>
+      <button>purple</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Показать/Скрыть блок</h2>
+    <div id="toggleBlock" style="width:100px; height:100px; background:#3498db; display:inline-block; vertical-align:middle; margin-right:10px;"></div>
+    <button id="toggleBlockBtn">Скрыть блок</button>
+  </section>
+
+  <section>
+    <h2>6. Счётчик от 0 до 100 (увеличение каждую миллисекунду)</h2>
+    <div id="counter">0</div>
+    <button id="startCounterBtn">Запустить счётчик</button>
+  </section>
+
+  <script src="APP.js"></script>
+</body>
+</html>
